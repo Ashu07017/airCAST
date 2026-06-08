@@ -22,3 +22,4 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+data/raw/historical_90days.csv
