@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Data — raw CSVs are committed, but never secrets
+.env.local
+
+# Model weights — pushed to Hugging Face, not Git
+models/*.pt
+models/*.pkl
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
