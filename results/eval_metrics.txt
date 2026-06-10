@@ -1,0 +1,8 @@
+AirCast LSTM — Test Set Evaluation
+========================================
+MAE  (Mean Absolute Error) : 4.63 µg/m³
+RMSE (Root Mean Sq. Error) : 6.39 µg/m³
+
+Interpretation:
+MAE = average prediction error in µg/m³
+Lower is better. WHO safe limit = 15 µg/m³ daily avg.
