@@ -9,9 +9,6 @@ venv/
 # Data — raw CSVs are committed, but never secrets
 .env.local
 
-# Model weights — pushed to Hugging Face, not Git
-models/*.pt
-models/*.pkl
 
 # VS Code
 .vscode/
